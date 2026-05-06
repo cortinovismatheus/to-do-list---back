@@ -3,7 +3,6 @@ import { read } from "./aplications/read"
 import { create } from "./aplications/create"
 import { remove } from "./aplications/remove"
 import { update } from "./aplications/update"
-import { json } from "node:stream/consumers";
 
 const app = express()
 
